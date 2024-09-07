@@ -1,0 +1,10 @@
+const int a = 0L;
+const int b = 0l; /* Non-compliant */
+const int c = 0Lu;
+const int d = 0lU; /* Non-compliant */
+const int e = 0ULL;
+const int f = 0Ull; /* Non-compliant */
+const long g = 0LL;
+const long h = 0ll; /* Non-compliant */
+const double m = 1.2L;
+const double n = 2.4l; /* Non-compliant */
